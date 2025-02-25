@@ -1,0 +1,21 @@
+python3 --version
+python3 - m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install pip --upgrade 
+
+cd (directory)
+ls (list directory)
+pwd (current directory)
+pip freeze (whats installed there)
+
+django-admin 
+django-admin startproject cfehome .
+
+Convention is setting base directory in 'templates'
+    settings.py -> TEMPLATES -> 'DIRS': [BASE_DIR / "templates"],
+
+Passing context into the render function, you can use keys in the HTML document using double braces {{}}
+
+https://github.com/github/gitignore/blob/main/Python.gitignore
+
