@@ -19,7 +19,6 @@ def home_page_view(request, *args, **kwargs):
     }
     path = request.path
     print("path", path)
-    html_template = "home.html"
     PageVisit.objects.create(path=request.path)
     return render(request, html_template, my_context)
 
